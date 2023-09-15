@@ -13,9 +13,9 @@ func TestNewGod(t *testing.T) {
 		{
 			name: "TestNewGod_1",
 			want: &God{
-				WorkDir:  "C:\\Users\\leig\\Developer\\github\\god\\config",
-				File:     "config.go",
-				FileType: GoType,
+				workDir:  "C:\\Users\\leig\\Developer\\github\\god\\config",
+				fileName: "config.go",
+				fileType: GoType,
 			},
 		},
 	}
